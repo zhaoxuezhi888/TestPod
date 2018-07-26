@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "TestPod"
+  s.name         = "Zhaoxuezhi-TestPod"
   s.version      = "1.4"
   s.summary      = "TestPod只是我个人测试pod是否好用的工程，并没有实质的内容"
 
