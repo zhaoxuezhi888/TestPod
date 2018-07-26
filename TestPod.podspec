@@ -92,12 +92,12 @@ Pod::Spec.new do |s|
   #
 
   # source_files是需要编译文件的文件目录，注意是文件目录而不是工程目录
-  s.source_files  = "NetOperateWrapper/*"
+  s.source_files  = "NetOperateWrapper/*.{h,m}"
 
   # s.exclude_files = "Classes/Exclude"
 
   # 公开的头文件，如果不指定，则所有的.h文件都是公开的
-  s.public_header_files = "NetOperateWrapper/NetOperateWrapper.h"
+  # s.public_header_files = "NetOperateWrapper/NetOperateWrapper.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
